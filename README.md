@@ -1,14 +1,12 @@
-# weather_pattern
-created on Monday July 9, 2018
+# astrology_testing
+created on Monday Nov 23, 2020
 
-@author: Benjamin O. Tayo
+@author: Anton A
 
-This code performs the following: It returns a line graph of the record high and record low temperatures by day of the year over the period 2005-2014. Overlays a scatter plot of the 2015 data for any points (highs and lows) for which the ten year record (2005-2014) record high or record low was broken in 2015.
+In general this code performs the following: It does some Exploratory Data Analysis (EDA) for the divorce dataset and tries to find a correlation between divorces and the zodiac signs compatibility 
 
-weather_data.csv: This NOAA dataset contains weather data from several data stations near Ann Arbor, Michigan, United States . This data comes from a subset of The National Centers for Environmental Information (NCEI) Daily Global Historical Climatology Network (GHCN-Daily). The GHCN-Daily is comprised of daily climate records from thousands of land surface stations across the globe.
+divorces_2000-2015_translated.csv: This dataset was obtained from the https://datos.gob.mx/busca/dataset/registro-civil The dataset contains records of approximately 4,900+ divorces for the 15 years period (2000-2015) in the city of Xalapa, Mexico.
 
-analysis.ipynb: Jupiter notebook that imports the dataset, performs elementary data exploration and analysis, and then plots the weather pattern for visualization.
+testing-the-zodiac-claims.ipynb: Jupiter notebook that imports the dataset, performs some data exploration and analysis, and then plots the final results for the distribution of the zodiac sign compatibilities across the divorce dataset
 
-analysis.R: R script that performs a similar calculation as the python analysis.ipynb file.
-
-output.png: Output generated from R code.
+final_output.png: Output generated from the Python code
